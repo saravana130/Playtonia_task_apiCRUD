@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.validators import RegexValidator
 
-contact_regex = RegexValidator(regex=r'^d{10,10}$',
+contact_regex = RegexValidator(regex=r'^\d{10,10}$',
                                message="contact number must be entered in the format: '9999999999'. must be 10 digits allowed.")
 # Create your models here.
 class company(models.Model):
