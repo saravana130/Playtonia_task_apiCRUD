@@ -3,7 +3,7 @@ from rest_framework import routers
 from .views import CompanyViewSet,EmployeesViweSet
 
 router = routers.DefaultRouter()
-router.register(r'emplyees', EmployeesViweSet)
+router.register(r'employees', EmployeesViweSet)
 router.register(r'company', CompanyViewSet)
 
 
